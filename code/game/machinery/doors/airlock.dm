@@ -1829,7 +1829,7 @@
 
 /obj/machinery/door/airlock/hydroponics	//Hydroponics front doors!
 	name = "hydroponics airlock"
-	icon = 'icons/obj/doors/airlocks/station/hydroponics.dmi'
+	icon = 'icons/obj/doors/airlocks/station/public.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_hydro
 
 /obj/machinery/door/airlock/maintenance
@@ -2259,7 +2259,7 @@
 
 /obj/machinery/door/airlock/highsecurity
 	name = "high tech security airlock"
-	icon = 'icons/obj/doors/airlocks/highsec/highsec.dmi'
+	icon = 'icons/obj/doors/airlocks/station/solgov.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/highsec/overlays.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_highsecurity
 	explosion_block = 2
