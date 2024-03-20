@@ -63,7 +63,7 @@
 
 /obj/structure/door_assembly/door_assembly_hydro
 	name = "hydroponics airlock assembly"
-	icon = 'icons/obj/doors/airlocks/station/public.dmi'
+	icon = 'icons/obj/doors/airlocks/station/hydroponics.dmi'
 	base_name = "hydroponics airlock"
 	glass_type = /obj/machinery/door/airlock/hydroponics/glass
 	airlock_type = /obj/machinery/door/airlock/hydroponics
@@ -115,7 +115,7 @@
 
 /obj/structure/door_assembly/door_assembly_highsecurity
 	name = "high security airlock assembly"
-	icon = 'icons/obj/doors/airlocks/station/solgov.dmi'
+	icon = 'icons/obj/doors/airlocks/highsec/highsec.dmi'
 	base_name = "high security airlock"
 	overlays_file = 'icons/obj/doors/airlocks/highsec/overlays.dmi'
 	airlock_type = /obj/machinery/door/airlock/highsecurity

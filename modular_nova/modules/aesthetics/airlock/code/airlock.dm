@@ -172,58 +172,58 @@
 			. += floorlight
 
 //STATION AIRLOCKS
-// /obj/machinery/door/airlock
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/public.dmi'
-// 	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/overlays.dmi'
+/obj/machinery/door/airlock
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/public.dmi'
+	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/overlays.dmi'
 
-// /obj/machinery/door/airlock/command
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/command.dmi'
+/obj/machinery/door/airlock/command
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/command.dmi'
 
-// /obj/machinery/door/airlock/security
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/security2.dmi' // ARK STATION EDIT || REDSEC
+/obj/machinery/door/airlock/security
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/security2.dmi' // ARK STATION EDIT || REDSEC
 
-// /obj/machinery/door/airlock/security/old
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/security2.dmi'
-// 	assemblytype = /obj/structure/door_assembly/door_assembly_sec/old
+/obj/machinery/door/airlock/security/old
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/security2.dmi'
+	assemblytype = /obj/structure/door_assembly/door_assembly_sec/old
 
 /obj/machinery/door/airlock/security/old/glass
 	opacity = FALSE
 	glass = TRUE
 	normal_integrity = 400
 
-// /obj/machinery/door/airlock/engineering
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/engineering.dmi'
+/obj/machinery/door/airlock/engineering
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/engineering.dmi'
 
-// /obj/machinery/door/airlock/medical
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/medical.dmi'
+/obj/machinery/door/airlock/medical
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/medical.dmi'
 
-// /obj/machinery/door/airlock/maintenance
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/maintenance.dmi'
+/obj/machinery/door/airlock/maintenance
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/maintenance.dmi'
 
-// /obj/machinery/door/airlock/maintenance/external
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/maintenanceexternal.dmi'
+/obj/machinery/door/airlock/maintenance/external
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/maintenanceexternal.dmi'
 
-// /obj/machinery/door/airlock/mining
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/mining.dmi'
+/obj/machinery/door/airlock/mining
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/mining.dmi'
 
-// /obj/machinery/door/airlock/atmos
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/atmos.dmi'
+/obj/machinery/door/airlock/atmos
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/atmos.dmi'
 
-// /obj/machinery/door/airlock/research
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/research.dmi'
+/obj/machinery/door/airlock/research
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/research.dmi'
 
-// /obj/machinery/door/airlock/freezer
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/freezer.dmi'
+/obj/machinery/door/airlock/freezer
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/freezer.dmi'
 
-// /obj/machinery/door/airlock/science
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/science.dmi'
+/obj/machinery/door/airlock/science
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/science.dmi'
 
-// /obj/machinery/door/airlock/virology
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/virology.dmi'
+/obj/machinery/door/airlock/virology
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/virology.dmi'
 
 //STATION CUSTOM ARILOCKS
 /obj/machinery/door/airlock/corporate
-	// icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/corporate.dmi'
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/corporate.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_corporate
 	normal_integrity = 450
 
@@ -233,7 +233,7 @@
 	normal_integrity = 400
 
 /obj/machinery/door/airlock/service
-	// icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/service.dmi'
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/service.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_service
 
 /obj/machinery/door/airlock/service/glass
@@ -241,45 +241,45 @@
 	glass = TRUE
 
 /obj/machinery/door/airlock/captain
-// icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/cap.dmi'
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/cap.dmi'
 
 /obj/machinery/door/airlock/hop
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/hop.dmi'
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/hop.dmi'
 
 /obj/machinery/door/airlock/hos
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/hos.dmi'
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/hos.dmi'
 
 /obj/machinery/door/airlock/hos/glass
 	opacity = FALSE
 	glass = TRUE
 	normal_integrity = 400
 
-// /obj/machinery/door/airlock/ce
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/ce.dmi'
+/obj/machinery/door/airlock/ce
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/ce.dmi'
 
 /obj/machinery/door/airlock/ce/glass
 	opacity = FALSE
 	glass = TRUE
 	normal_integrity = 400
 
-// /obj/machinery/door/airlock/rd
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/rd.dmi'
+/obj/machinery/door/airlock/rd
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/rd.dmi'
 
 /obj/machinery/door/airlock/rd/glass
 	opacity = FALSE
 	glass = TRUE
 	normal_integrity = 400
 
-// /obj/machinery/door/airlock/qm
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/qm.dmi'
+/obj/machinery/door/airlock/qm
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/qm.dmi'
 
 /obj/machinery/door/airlock/qm/glass
 	opacity = FALSE
 	glass = TRUE
 	normal_integrity = 400
 
-// /obj/machinery/door/airlock/cmo
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/cmo.dmi'
+/obj/machinery/door/airlock/cmo
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/cmo.dmi'
 
 /obj/machinery/door/airlock/cmo/glass
 	opacity = FALSE
@@ -287,72 +287,72 @@
 	normal_integrity = 400
 
 /obj/machinery/door/airlock/psych
-	// icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/psych.dmi'
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/psych.dmi'
 
 /obj/machinery/door/airlock/asylum
-	// icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/asylum.dmi'
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/asylum.dmi'
 
 /obj/machinery/door/airlock/bathroom
-	// icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/bathroom.dmi'
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/bathroom.dmi'
 
 //STATION MINERAL AIRLOCKS
-// /obj/machinery/door/airlock/gold
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/gold.dmi'
+/obj/machinery/door/airlock/gold
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/gold.dmi'
 
-// /obj/machinery/door/airlock/silver
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/silver.dmi'
+/obj/machinery/door/airlock/silver
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/silver.dmi'
 
-// /obj/machinery/door/airlock/diamond
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/diamond.dmi'
+/obj/machinery/door/airlock/diamond
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/diamond.dmi'
 
-// /obj/machinery/door/airlock/uranium
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/uranium.dmi'
+/obj/machinery/door/airlock/uranium
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/uranium.dmi'
 
-// /obj/machinery/door/airlock/plasma
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/plasma.dmi'
+/obj/machinery/door/airlock/plasma
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/plasma.dmi'
 
-// /obj/machinery/door/airlock/bananium
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/bananium.dmi'
+/obj/machinery/door/airlock/bananium
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/bananium.dmi'
 
-// /obj/machinery/door/airlock/sandstone
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/sandstone.dmi'
+/obj/machinery/door/airlock/sandstone
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/sandstone.dmi'
 
-// /obj/machinery/door/airlock/wood
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/wood.dmi'
+/obj/machinery/door/airlock/wood
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station/wood.dmi'
 
 //STATION 2 AIRLOCKS
 
-// /obj/machinery/door/airlock/public
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station2/glass.dmi'
-// 	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station2/overlays.dmi'
+/obj/machinery/door/airlock/public
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station2/glass.dmi'
+	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/station2/overlays.dmi'
 
 //EXTERNAL AIRLOCKS
-// /obj/machinery/door/airlock/external
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/external/external.dmi'
-// 	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/external/overlays.dmi'
+/obj/machinery/door/airlock/external
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/external/external.dmi'
+	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/external/overlays.dmi'
 
 //CENTCOM
-// /obj/machinery/door/airlock/centcom
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/centcom/centcom.dmi'
-// 	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/centcom/overlays.dmi'
+/obj/machinery/door/airlock/centcom
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/centcom/centcom.dmi'
+	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/centcom/overlays.dmi'
 
-// /obj/machinery/door/airlock/grunge
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/centcom/centcom.dmi'
-// 	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/centcom/overlays.dmi'
+/obj/machinery/door/airlock/grunge
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/centcom/centcom.dmi'
+	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/centcom/overlays.dmi'
 
-// //VAULT
-// /obj/machinery/door/airlock/vault
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/vault/vault.dmi'
-// 	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/vault/overlays.dmi'
+//VAULT
+/obj/machinery/door/airlock/vault
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/vault/vault.dmi'
+	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/vault/overlays.dmi'
 
-// //HATCH
-// /obj/machinery/door/airlock/hatch
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/hatch/centcom.dmi'
-// 	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/hatch/overlays.dmi'
+//HATCH
+/obj/machinery/door/airlock/hatch
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/hatch/centcom.dmi'
+	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/hatch/overlays.dmi'
 
-// /obj/machinery/door/airlock/maintenance_hatch
-// 	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/hatch/maintenance.dmi'
-// 	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/hatch/overlays.dmi'
+/obj/machinery/door/airlock/maintenance_hatch
+	icon = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/hatch/maintenance.dmi'
+	overlays_file = 'modular_nova/modules/aesthetics/airlock/icons/airlocks/hatch/overlays.dmi'
 
 //HIGH SEC
 /obj/machinery/door/airlock/highsecurity

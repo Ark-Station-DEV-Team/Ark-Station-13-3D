@@ -154,7 +154,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/window/reinforced/survival_pod/spawne
 //Door
 /obj/machinery/door/airlock/survival_pod
 	name = "Airlock"
-	icon = 'icons/obj/doors/airlocks/hatch/centcom.dmi'
+	icon = 'icons/obj/doors/airlocks/survival/survival.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/survival/survival_overlays.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_pod
 	smoothing_groups = SMOOTH_GROUP_AIRLOCK + SMOOTH_GROUP_SURVIVAL_TITANIUM_POD
@@ -165,7 +165,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/window/reinforced/survival_pod/spawne
 
 /obj/structure/door_assembly/door_assembly_pod
 	name = "pod airlock assembly"
-	icon = 'icons/obj/doors/airlocks/hatch/centcom.dmi'
+	icon = 'icons/obj/doors/airlocks/survival/survival.dmi'
 	base_name = "pod airlock"
 	overlays_file = 'icons/obj/doors/airlocks/survival/survival_overlays.dmi'
 	airlock_type = /obj/machinery/door/airlock/survival_pod
